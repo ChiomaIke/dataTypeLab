@@ -1,0 +1,28 @@
+{
+  "name": "task1",
+  "version": "1.0.0",
+  "description": "Andela task on data type lab",
+  "main": "App/library.js",
+  "scripts": {
+    "test": "mocha Test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChiomaIke/dataTypeLab.git"
+  },
+  "keywords": [
+    "data",
+    "type"
+  ],
+  "author": "Chioma Ike",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChiomaIke/dataTypeLab/issues"
+  },
+  "homepage": "https://github.com/ChiomaIke/dataTypeLab#readme",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "expect": "^1.20.2",
+    "mocha": "^3.2.0"
+  }
+}

@@ -69,11 +69,11 @@
       });
 
       it("should return `undefined` for `[]`", function() {
-        expect(myApp.dataTypes([])).not.toBeDefined();
+        expect(myApp.dataTypes([])).not.toBe('undefined');
       });
 
       it("should return `undefined` for `[4, 9]`", function() {
-        expect(myApp.dataTypes([4, 9])).not.toBeDefined();
+        expect(myApp.dataTypes([4, 9])).not.toBe('undefined');
       });
 
     });

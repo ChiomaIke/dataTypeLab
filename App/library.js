@@ -3,7 +3,7 @@ dataTypes: function(value)
 {
   if (typeof value === 'object') 
   {
-    if (value == 'null')
+    if (value == null)
     {
       return 'no value';
     }
@@ -13,7 +13,7 @@ dataTypes: function(value)
     }
     else if (value[0] == 0 && value[1] == 1 && value[2] == 2)
     {
-      return 2;
+      return '2';
     }
     else if (value[0] == 4 && value[1] == 9)
     {
